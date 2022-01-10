@@ -29,6 +29,8 @@
     width: 80%;
     background-color: #ececec;
     border-left: 5px solid springgreen;
+    overflow-y: scroll;
+    height: 80vh;
   }
   .result{
     padding: 2%;
