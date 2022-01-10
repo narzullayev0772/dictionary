@@ -1,0 +1,65 @@
+.logo{
+  margin: 5%;
+}
+.input-wrap {
+    width: 100%;
+    height: 7.5vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+  }
+  .input {
+    width: 80%;
+    padding: 10px 20px;
+    border-radius: 20px;
+    border: 1px solid #ddd;
+  }
+  .searchIcon{
+    position: absolute;
+    right: 12%;
+    cursor: pointer;
+    border-radius: 20px;
+  }
+  .searchIcon:active{
+    box-shadow: #ddd 0 0 0 10px;
+  }
+  .results {
+    margin-top: 5%;
+    width: 80%;
+    background-color: #ececec;
+    border-left: 5px solid springgreen;
+  }
+  .result{
+    padding: 2%;
+  }
+  .phonetics{
+      display: flex;
+      width: 100%;
+      align-items: center;
+      padding: 1%;
+  }
+  audio{
+      display: none;
+  }
+  .play{
+      cursor: pointer;
+      padding: 0 5px;
+  }
+  .meaning{
+    margin-left: 5%;
+    margin-top: 2%;
+  }
+  .partofspeech{
+    color: grey;
+    font-size: 12.5px;
+  }
+.footer{
+  position: absolute;
+  bottom: 2%;
+  font-size: 12px;
+  z-index: 10;
+  background-color: #00000010;
+  width: 100%;
+  text-align: center;
+}
