@@ -1,6 +1,6 @@
 const Item = (props) => {
   const audios = new Audio(props.url);
-  audios.preload = "metadata";
+  audios.preload = "auto";
   return (
     <>
       <div className="result">
