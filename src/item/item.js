@@ -34,9 +34,9 @@ const Meaning = (props) => {
     <div className="meaning" >
       <p className="partofspeech">{props.partofspeech}</p>
       <p className="defination">
-          {props.definitions.definition}
+         <code>Defination: </code> {props.definitions.definition}
       </p>
-      <p className="example">{props.definitions.example}</p>
+      <p className="example"><code>example: </code>{props.definitions.example}</p>
     </div>
   );
 };

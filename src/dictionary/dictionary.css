@@ -50,9 +50,15 @@
     margin-left: 5%;
     margin-top: 2%;
   }
-  .partofspeech{
+  .partofspeech,code{
     color: grey;
     font-size: 12.5px;
+  }
+  code{
+    color: #0088cc;
+  }
+  .example{
+    padding: 2% 0 0;
   }
 .footer{
   position: absolute;
@@ -62,4 +68,8 @@
   background-color: #00000010;
   width: 100%;
   text-align: center;
+}
+a{
+  color: #0088cc;
+  text-decoration: none;
 }
