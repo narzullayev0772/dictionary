@@ -41,9 +41,9 @@
       align-items: center;
       padding: 1%;
   }
-  audio{
+  /* audio{
       display: none;
-  }
+  } */
   .play{
       cursor: pointer;
       padding: 0 5px;

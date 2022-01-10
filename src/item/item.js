@@ -7,6 +7,7 @@ const Item = (props) => {
         <h1>{props.word}</h1>
         <h5>{props.origin}</h5>
         <div className="phonetics">
+          <audio src={props.url} controls autoPlay></audio>
           <p
             className="play"
             onClick={() => {
