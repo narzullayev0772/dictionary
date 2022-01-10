@@ -7,3 +7,5 @@ const App = () => {
 }
  
 export default App;
+
+// My English Dictionary
